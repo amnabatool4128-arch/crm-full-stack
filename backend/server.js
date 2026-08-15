@@ -23,7 +23,10 @@ connectDB();
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://crm-full-stack-osgt-sigma.vercel.app",
+    ],
     credentials: true,
   }),
 );
