@@ -1,69 +1,65 @@
 # CRM Full Stack Application
 
-A modern full-stack Customer Relationship Management (CRM) application built with React, Node.js, Express, and MongoDB.
+A full-stack Customer Relationship Management (CRM) application built with React, Node.js, Express.js, and MongoDB.
 
-## 🚀 Features
+## Features
 
-- User Registration and Login
-- JWT-based Authentication
-- Protected Routes
+- User Authentication
 - Lead Management
 - Contact Management
 - Task Management
 - Notes Management
 - Sales Pipeline
 - Dashboard & Analytics
-- AI-powered Sales Insights
+- AI Sales Insights
 - AI Lead Summary
-- AI-generated Sales Emails
-- Responsive Dashboard UI
-- MongoDB Database Integration
+- AI Email Generation
+- Protected Routes
+- Responsive UI
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
-- React.js
+- React
 - Vite
-- React Router
 - Tailwind CSS
+- React Router
+- Axios
 - Recharts
 - Lucide React
-- Axios
-- Sonner
 
 ### Backend
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
-- JWT
-- bcrypt
-- dotenv
-- Google Gemini AI
+- JWT Authentication
 
-## 📁 Project Structure
+### AI
+- Google Gemini API
 
-```text
+## Project Structure
+
 CRM/
 ├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── utils/
-│   ├── server.js
-│   └── package.json
-│
 └── frontend/
-    ├── public/
-    ├── src/
-    │   ├── components/
-    │   ├── context/
-    │   ├── lib/
-    │   ├── pages/
-    │   ├── App.jsx
-    │   └── main.jsx
-    ├── package.json
-    └── vite.config.js
+
+## AI Features
+
+The application uses Google Gemini to provide:
+
+- Sales pipeline health score
+- Pipeline observations
+- Sales recommendations
+- Lead summaries
+- Lead risk scores
+- AI-generated sales emails
+
+## Getting Started
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
